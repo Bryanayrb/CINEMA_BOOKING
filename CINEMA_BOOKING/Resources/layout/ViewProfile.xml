@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/headercolor">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/back"
+            android:id="@+id/Previuos"
+            android:contentDescription="description"/>
+
+        <TextView
+            android:text="Profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:id="@+id/textView1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="365dp"
+            android:background="@drawable/logout"
+            android:id="@+id/Logout"
+            android:contentDescription="description"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="130dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/boy"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/textboxUsername"
+            android:paddingStart="10dp"
+            android:gravity="center"
+            android:hint="Username"
+            android:background="@drawable/textbox"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="443dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/imageView3" 
+                android:background="@drawable/content1"/>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

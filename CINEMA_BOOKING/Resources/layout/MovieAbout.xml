@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundcolor">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParentWithBackground">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back"
+            android:id="@+id/ImageButtonBack"
+            android:contentDescription="description"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:text="The Batman"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:id="@+id/textView1" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:text="About"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:textAllCaps="false"
+                android:textColor="#FF8036"
+                android:id="@+id/button1"
+                android:background="@drawable/transparentorange"/>
+            <Button
+                android:text="Session"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="210dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                android:id="@+id/button2" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="100dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:id="@+id/imageView1"
+                    android:background="@drawable/video"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="90dp"
+                    android:id="@+id/imageView2"
+                    android:background="@drawable/playlogo"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="220dp"
+                        tools:ignore="ScrollViewSize,ScrollViewSize">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/rating"/>
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/content"/>
+
+                        <Button
+                            android:text="Select Session"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:background="@drawable/buttonradius"
+                            android:id="@+id/btnSignIn" />
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </FrameLayout>
+
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

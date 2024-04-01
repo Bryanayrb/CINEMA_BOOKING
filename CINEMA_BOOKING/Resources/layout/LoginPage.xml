@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <FrameLayout
+        android:layout_width="310.9dp"
+        android:layout_height="512.9dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="133dp"
+        android:background="@drawable/rectangle">
+
+        <TextView
+            android:text="Log in"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:id="@+id/TbUsername"
+            android:background="@drawable/textbox"
+            android:paddingStart="10dp"
+            android:hint="\tUsername"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="140dp"
+            android:id="@+id/TbPass"
+            android:background="@drawable/textbox"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:hint="\tPassword"/>
+
+        <Button
+            android:text="Sign in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="233dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/buttonradius"
+            android:id="@+id/btnSignIn" />
+
+        <TextView
+            android:text="\nor"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="280dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+        <FrameLayout
+        android:layout_width="310.9dp"
+        android:layout_height="512.9dp"
+        android:layout_gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_marginTop="345dp"
+                android:id="@+id/imageButtonFB" 
+                android:background="@drawable/facebook"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_marginTop="420dp"
+                android:id="@+id/imageButtonGoogle" 
+                android:background="@drawable/google"/>
+        </FrameLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

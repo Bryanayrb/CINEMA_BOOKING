@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/headercolor">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/imageView1"
+            android:background="@drawable/productlogo"/>
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="125dp"
+            android:id="@+id/imageView2" 
+            android:background="@drawable/vector"/>
+
+        <TextView
+            android:text="Philippine"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="157dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:id="@+id/textView2" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="235dp"
+            android:id="@+id/imageView3" 
+            android:background="@drawable/vector1"/>
+
+        <TextView
+            android:text="Eng"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:id="@+id/textView3" />
+
+        <Button
+            android:text="Profile"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="13dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/buttonradius"
+            android:id="@+id/btnProfile" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/backgroundcolor"
+            android:orientation="horizontal">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                tools:ignore="UselessLeaf,UselessParentWithBackground">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="ScrollViewSize">
+
+                    <TextView
+                    android:text="Now in cinemas"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                        android:layout_marginLeft="39dp"
+                        android:layout_marginTop="12dp"
+                        android:textSize="25dp"
+                    android:id="@+id/textView1" />
+
+                    <ImageButton
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginLeft="23dp"
+                        android:id="@+id/imageButton1"
+                        android:background="@drawable/moviecard4"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageButton
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="205dp"
+                        android:layout_marginTop="22dp"
+                        android:id="@+id/imageButton2"
+                        android:background="@drawable/moviecard1"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageButton
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_marginTop="330dp"
+                        android:layout_marginLeft="23dp"
+                        android:id="@+id/imageButton3"
+                        android:background="@drawable/moviecard3"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageButton
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="330dp"
+                        android:id="@+id/imageButton4"
+                        android:background="@drawable/moviecard"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageButton
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_marginTop="630dp"
+                        android:layout_gravity="left"
+                        android:background="@drawable/moviecard5"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageButton
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="630dp"
+                        android:id="@+id/imageButton6"
+                        android:background="@drawable/moviecard6"
+                        tools:ignore="ContentDescription" />
+                </FrameLayout>
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
